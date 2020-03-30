@@ -35,7 +35,61 @@
         <img class="intro__image-text intro__image-text--inner" src="#" width="" height="" alt="Sedona">
       </section>
       <section class="form-review">
-        <!-- Will be created on the next step -->
+        <h2 class="form-review__title">Оставьте свой отзыв</h2>
+        <p class="form-review__subtitle">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <form class="form-review__form form" action="https://echo.htmlacademy.ru/" method="post">
+          <div class="form__group">
+            <fieldset>
+              <legend>Представьтесь:</legend>
+              <label for="name-field">ИМЯ*:</label>
+              <input type="text" name="user-name" id="name-field" placeholder="Петр">
+              <label for="surname-field">ФАМИЛИЯ*:</label>
+              <input type="text" name="user-surname" id="surname-field" placeholder="Иванов">
+              <label for="name2-field">Отчество:</label>
+              <input type="text" name="user-name2" id="name2-field" placeholder="Александрович">
+            </fieldset>
+          </div>
+          <div class="form__group">
+            <fieldset>
+              <legend>Контактная информация:</legend>
+              <label for="phone-field">Контактный телефон*:</label>
+              <input type="tel" name="user-phone" id="phone-field" placeholder="Введите телефон">
+              <label for="email-field">Электронная почта*:</label>
+              <input type="email" name="user-email" id="email-field" placeholder="Введите e-mail">
+            </fieldset>
+          </div>
+          <div class="form__group">
+            <fieldset>
+              <legend>Ваше общее впечатление:</legend>
+              <input type="radio" name="impression" value="good" id="good-field" checked>
+              <label for="good-field">Скорее положительное</label>
+              <input type="radio" name="impression" value="bad" id="bad-field">
+              <label for="bad-field">Скорее отрицательное</label>
+              <input type="radio" name="impression" value="neutral" id="neutral-field">
+              <label for="neutral-field">Затрудняюсь ответить</label>
+            </fieldset>
+          </div>
+          <div class="form__group">
+            <fieldset>
+              <legend>Посещенные достопримечательности:</legend>
+              <input type="checkbox" name="devil-bridge" id="bridge-field" checked>
+              <label for="bridge-field">Мост Дьявола</label>
+              <input type="checkbox" name="bell-mountain" id="mountain-field" checked>
+              <label for="mountain-field">Гора-Колокол</label>
+              <input type="checkbox" name="slide-park" id="park-field" checked>
+              <label for="park-field">Слайд-парк</label>
+              <input type="checkbox" name="red-rocks" id="rocks-field">
+              <label for="rocks-field">Красные скалы</label>
+            </fieldset>
+          </div>
+          <div class="form__group">
+            <fieldset>
+              <legend>Опишите свои эмоции:</legend>
+              <textarea name="comment" cols="30" rows="5" placeholder="Опишите подробно все свои восторги"></textarea>
+            </fieldset>
+          </div>
+          <button class="form__submit button" type="submit">Отправить отзыв</button>
+        </form>
       </section>
     </main>
     <footer class="page-footer">
@@ -66,5 +120,15 @@
         </a>
       </div>
     </footer>
+    <section class="modal modal--error">
+      <h2 class="modal__title">Что-то пошло не так!</h2>
+      <p class="modal__subtitle">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+      <button class="modal__button" type="button">OK</button>
+    </section>
+    <section class="modal modal--success">
+      <h2 class="modal__title">Ваш отзыв отправлен!</h2>
+      <p class="modal__subtitle">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+      <button class="modal__button" type="button">Закрыть окно</button>
+    </section>
   </body>
 </html>
