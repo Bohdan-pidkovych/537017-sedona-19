@@ -1,0 +1,119 @@
+.advantages {
+  text-align: center;
+}
+
+.advantages__head {
+  margin-top: 37px;
+  margin-left: 32px;
+  margin-right: 32px;
+  color: #000000;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantages__subhead {
+  margin-top: 26px;
+  margin-bottom: 5px;
+  margin-left: 32px;
+  margin-right: 32px;
+  color: #333333;
+  font-family: $font-normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantages__list {
+  @include list-none;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages__title {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantages__number,
+.advantages__description {
+  font-family: $font-normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.advantages__image-block {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.advantages__item:first-child {
+  order: -1;
+  position: relative;
+  padding-top: 37px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: calc(50% - 160px);
+    background-image: url("../img/bg-triangle.svg");
+    background-size: 100%;
+    width: 320px;
+    height: 37px;
+  }
+}
+
+.advantages__item--other-advantages {
+  background-color: #eeeeee;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  // Not working
+
+  .advantages__number,
+  .advantages__description {
+    color: #333333;
+  }
+
+  .advantages__description {
+    padding-bottom: 28px;
+  }
+}
+
+.more-advantages {
+  order: -1;
+  padding-bottom: 38px;
+}
+
+.more-advantages__list {
+  @include list-none;
+}
+
+.more-advantages__title {
+  margin: 0;
+  margin-top: 36px;
+  color: #000000;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.more-advantages__description {
+  margin: 0;
+  margin-top: 13px;
+  color: #333333;
+  font-family: $font-normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
