@@ -10,7 +10,6 @@
   font-family: $font-bold;
   font-size: 18px;
   line-height: 26px;
-  text-transform: uppercase;
 }
 
 .photos__subhead {
@@ -18,10 +17,7 @@
   margin-bottom: 28px;
   padding: 0 25px;
   color: #333333;
-  font-family: $font-normal;
-  font-size: 14px;
   line-height: 24px;
-  text-transform: uppercase;
 }
 
 .photos__list {
@@ -46,14 +42,12 @@
   font-family: $font-bold;
   font-size: 14px;
   line-height: 24px;
-  text-transform: uppercase;
 }
 
 .photos__author {
   margin: 0;
-  font-family: $font-normal;
-  font-size: 14px;
   line-height: 24px;
+  text-transform: none;
 }
 
 .photos__likes-number {
