@@ -1,0 +1,26 @@
+.intro {
+  position: relative;
+  height: 389px;
+  padding: 90px 20px 85px 20px;
+  text-align: center;
+  background-color: #acd5ee;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: calc(50% - 160px);
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-size: 102%;
+    width: 320px;
+    height: 26px;
+  }
+
+  &--inner {
+    height: 158px;
+    padding: 52px 46px 67px 46px;
+  }
+}

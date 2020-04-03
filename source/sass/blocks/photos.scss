@@ -1,0 +1,57 @@
+.photos {
+  text-align: center;
+}
+
+.photos__head {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0 25px;
+  color: #000000;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.photos__subhead {
+  margin-top: 30px;
+  margin-bottom: 28px;
+  padding: 0 25px;
+  color: #333333;
+  line-height: 24px;
+}
+
+.photos__list {
+  @include list-none;
+  display: flex;
+  flex-direction: column;
+}
+
+.photos__item {
+  text-align: left;
+  border-top: 1px solid #eeeeee;
+  padding: 22px 20px 21px 20px;
+
+  &:last-child {
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+
+.photos__title {
+  margin: 0;
+  margin-top: 17px;
+  font-family: $font-bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.photos__author {
+  margin: 0;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.photos__likes-number {
+  font-family: $font-bold;
+  font-size: 14px;
+  line-height: 24px;
+}
