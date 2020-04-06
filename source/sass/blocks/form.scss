@@ -1,18 +1,17 @@
 .form__group {
   border-top: 1px solid #eeeeee;
+}
 
-  fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+.form__title {
+  margin: 0;
+  padding: 20px 0;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+}
 
-  legend {
-    padding: 20px 0;
-    font-family: $font-bold;
-    font-size: 18px;
-    line-height: 26px;
-  }
+.form__list {
+  @include list-none;
 }
 
 .form__item {
@@ -59,7 +58,7 @@
   }
 }
 
-.form__item--impression {
+.form__item--radio {
   margin-bottom: 42px;
   margin-top: 20px;
   // Bad decision
@@ -144,7 +143,6 @@
   background-position: center;
 }
 
-// Bad decision
 .form__group--textarea {
   padding: 0 20px;
 

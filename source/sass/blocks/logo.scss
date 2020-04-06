@@ -1,0 +1,11 @@
+.logo {
+  position: relative;
+  height: 56px;
+}
+
+.logo__image {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 51px);
+  z-index: 1;
+}
