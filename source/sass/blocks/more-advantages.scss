@@ -1,0 +1,23 @@
+.more-advantages {
+  order: -1;
+  padding-bottom: 38px;
+}
+
+.more-advantages__list {
+  @include list-none;
+}
+
+.more-advantages__title {
+  margin: 0;
+  margin-top: 36px;
+  color: #000000;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.more-advantages__description {
+  margin: 0;
+  margin-top: 13px;
+  color: #333333;
+}

@@ -6,6 +6,10 @@
   background-color: #81b3d2;
 }
 
+.main-nav__list {
+  @include list-none;
+}
+
 .main-nav__item {
   &:not(:first-child),
   &:not(:last-child) {
@@ -24,10 +28,6 @@
   &--active {
     cursor: context-menu;
   }
-}
-
-.main-nav__list {
-  @include list-none;
 }
 
 .main-nav__link {

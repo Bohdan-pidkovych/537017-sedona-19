@@ -1,0 +1,170 @@
+.form__group {
+  border-top: 1px solid #eeeeee;
+}
+
+.form__title {
+  margin: 0;
+  padding: 20px 0;
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.form__list {
+  @include list-none;
+}
+
+.form__item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+  .form__label {
+    margin-right: 14px;
+    line-height: 26px;
+  }
+
+  .form__input {
+    width: 192px;
+    height: 58px;
+    flex-grow: 1;
+    padding: 16px 22px;
+    border: none;
+    font-family: $font-bold;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #f2f2f2;
+  }
+}
+
+.form__item--contact {
+  flex-direction: column;
+  margin-bottom: 14px;
+
+  .form__label {
+    align-self: flex-start;
+    padding-left: 22px;
+    padding-bottom: 8px;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+
+  &:last-child {
+    margin-bottom: 28px;
+  }
+}
+
+.form__item--radio {
+  margin-bottom: 42px;
+  margin-top: 20px;
+  // Bad decision
+
+  .form__label {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-left: 78px;
+    font-family: $font-bold;
+    font-size: 18px;
+    text-transform: none;
+  }
+}
+
+.form__input--radio + label::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 0 16px #f2f2f2;
+}
+
+.form__input--radio:checked + label::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: #333333;
+  box-shadow: 0 0 0 16px #f2f2f2;
+}
+
+.form__item--checkbox {
+  margin-bottom: 54px;
+  margin-top: 7px;
+  // Bad decision
+
+  &:last-child {
+    margin-bottom: 46px;
+  }
+
+  .form__label {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-left: 78px;
+    font-family: $font-bold;
+    font-size: 18px;
+    text-transform: none;
+  }
+}
+
+.form__input--checkbox + label::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.form__input--checkbox:checked + label::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  background-image: url("../../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form__group--textarea {
+  padding: 0 20px;
+
+  .form__title {
+    padding-bottom: 16px;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 160px;
+    padding: 16px 22px;
+    border: none;
+    font-family: $font-bold;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #f2f2f2;
+  }
+}
+
+.form__submit {
+  margin-top: 46px;
+  margin-bottom: 45px;
+  // Not working
+  width: calc(100% - 40px);
+}
