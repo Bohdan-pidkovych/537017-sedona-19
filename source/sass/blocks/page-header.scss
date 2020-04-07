@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+.page-header__toggle-menu {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 23px;
+  height: 23px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../../img/icon-cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
 .page-header__logo {
   order: 1;
 }

@@ -6,19 +6,6 @@
   background-color: #81b3d2;
 }
 
-.main-nav__toggle {
-  position: absolute;
-  top: 16px;
-  right: 20px;
-  width: 23px;
-  height: 23px;
-  border: none;
-  background-color: transparent;
-  background-image: url("../../img/icon-cross.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .main-nav__list {
   @include list-none;
 }
