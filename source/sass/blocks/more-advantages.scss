@@ -89,19 +89,6 @@
   .more-advantages__item {
     padding: 0;
     padding-top: 160px;
-
-    &--house {
-      width: 156px;
-    }
-
-    &--gift {
-      order: 1;
-      width: 163px;
-    }
-
-    &--food {
-      width: 151px;
-    }
   }
 
   .more-advantages__title {
@@ -110,6 +97,8 @@
   }
 
   .more-advantages__item--house {
+    width: 156px;
+
     .more-advantages__title::before {
       top: -100px;
       left: 40px;
@@ -119,6 +108,9 @@
   }
 
   .more-advantages__item--gift {
+    order: 1;
+    width: 163px;
+
     .more-advantages__title::before {
       top: -104px;
       left: 45px;
@@ -128,6 +120,8 @@
   }
 
   .more-advantages__item--food {
+    width: 151px;
+
     .more-advantages__title::before {
       top: -98px;
       left: 37px;
@@ -142,35 +136,25 @@
     width: 1200px;
   }
 
-  .more-advantages__item {
-
-    &--house {
-      width: 252px;
-    }
-
-    &--gift {
-      order: 1;
-      width: 214px;
-    }
-
-    &--food {
-      width: 283px;
-    }
-  }
-
   .more-advantages__item--house {
+    width: 252px;
+
     .more-advantages__title::before {
       left: 88px;
     }
   }
 
   .more-advantages__item--gift {
+    width: 214px;
+
     .more-advantages__title::before {
       left: 74px;
     }
   }
 
   .more-advantages__item--food {
+    width: 283px;
+
     .more-advantages__title::before {
       left: 102px;
     }
