@@ -39,3 +39,9 @@
     }
   }
 }
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    padding: 0;
+  }
+}

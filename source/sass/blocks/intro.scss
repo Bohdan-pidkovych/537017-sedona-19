@@ -13,14 +13,47 @@
     position: absolute;
     bottom: -1px;
     right: calc(50% - 160px);
-    background-image: url("../img/bg-intro-triangle-mobile.svg");
-    background-size: 102%;
     width: 320px;
     height: 26px;
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-size: 102%;
   }
 
   &--inner {
     height: 158px;
     padding: 52px 46px 67px 46px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    height: 518px;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-size: cover;
+
+    &::after {
+      right: calc(50% - 384px);
+      width: 768px;
+      height: 57px;
+      background-image: url("../img/bg-intro-triangle-tablet.svg");
+      background-size: 100%;
+    }
+
+    &--inner {
+      height: 290px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+
+    &::after {
+      right: calc(50% - 600px);
+      width: 1200px;
+      height: 57px;
+      background-image: url("../../img/bg-intro-triangle-desktop.svg");
+    }
   }
 }
