@@ -13,7 +13,7 @@
   height: 23px;
   border: none;
   background-color: transparent;
-  background-image: url("../../img/icon-cross.svg");
+  background-image: url("../img/icon-cross.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -21,4 +21,14 @@
 
 .page-header__logo {
   order: 1;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    flex-direction: row;
+  }
+
+  .page-header__toggle-menu {
+    display: none;
+  }
 }
