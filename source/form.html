@@ -12,12 +12,10 @@
         <button class="page-header__toggle-menu" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <div class="page-header__logo logo">
-          <a class="logo__link" href="index.html" aria-label="Перейти на главную страницу">
-            <img class="logo__image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип Седоны">
-          </a>
-        </div>
-        <nav class="main-nav">
+        <a class="page-header__logo" href="index.html" aria-label="Перейти на главную страницу">
+          <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип Седоны">
+        </a>
+        <nav class="page-header__main-nav main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item">
               <a class="main-nav__link" href="index.html">Главная</a>
@@ -44,7 +42,7 @@
           <h2 class="form-review__title">Оставьте свой отзыв</h2>
           <p class="form-review__subtitle">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
           <form class="form-review__form form" action="https://echo.htmlacademy.ru/" method="post">
-            <div class="form__group">
+            <div class="form__group form__group--name">
               <h3 class="form__title">Представьтесь:</h3>
               <ul class="form__list">
                 <li class="form__item">
@@ -61,11 +59,11 @@
                 </li>
               </ul>
             </div>
-            <div class="form__group">
+            <div class="form__group form__group--contact">
               <h3 class="form__title">Контактная информация:</h3>
               <ul class="form__list">
                 <li class="form__item form__item--contact">
-                  <label class="form__label" for="phone-field">Контактный телефон*:</label>
+                  <label class="form__label" for="phone-field"><span class="form__label--hidden">Контактный</span> телефон*:</label>
                   <input class="form__input" type="tel" name="user-phone" id="phone-field" placeholder="Введите телефон">
                 </li>
                 <li class="form__item form__item--contact">
@@ -74,7 +72,7 @@
                 </li>
               </ul>
             </div>
-            <div class="form__group">
+            <div class="form__group form__group--radio">
               <h3 class="form__title">Ваше общее впечатление:</h3>
               <ul class="form__list">
                 <li class="form__item form__item--radio">
@@ -91,7 +89,7 @@
                 </li>
               </ul>
             </div>
-            <div class="form__group">
+            <div class="form__group--checkbox">
               <h3 class="form__title">Посещенные достопримечательности:</h3>
               <ul class="form__list">
                 <li class="form__item form__item--checkbox">

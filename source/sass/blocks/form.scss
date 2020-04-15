@@ -138,7 +138,7 @@
   height: 50px;
   border-radius: 5px;
   background-color: #f2f2f2;
-  background-image: url("../../img/icon-tick.svg");
+  background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -167,4 +167,72 @@
   margin-bottom: 45px;
   // Not working
   width: calc(100% - 40px);
+}
+
+@media (min-width: $tablet-width) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__group {
+    border: none;
+
+    &--radio {
+      order: -1;
+      width: 50%;
+    }
+
+    &--name {
+      width: 50%;
+    }
+
+    &--contact {
+      width: 100%;
+    }
+
+    &--checkbox {
+      width: 100%;
+
+      .form__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+
+    &--textarea {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__group--contact {
+    .form__list {
+      display: flex;
+    }
+  }
+
+  .form__item--contact,
+  .form__item--contact:last-child {
+    margin: 0;
+  }
+
+  .form__item--contact {
+    flex-direction: row;
+
+    .form__label {
+      padding: 0;
+      align-self: center;
+    }
+
+    .form__input {
+      width: 316px;
+    }
+  }
+
+  .form__label--hidden {
+    display: none;
+  }
 }
