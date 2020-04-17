@@ -45,22 +45,22 @@
             <div class="form__group form__group--name">
               <h3 class="form__title">Представьтесь:</h3>
               <ul class="form__list">
-                <li class="form__item">
+                <li class="form__item form__item--name">
                   <label class="form__label" for="name-field">ИМЯ*:</label>
                   <input class="form__input" type="text" name="user-name" id="name-field" placeholder="Петр">
                 </li>
-                <li class="form__item">
+                <li class="form__item form__item--name">
                   <label class="form__label" for="surname-field">ФАМИЛИЯ*:</label>
                   <input class="form__input" type="text" name="user-surname" id="surname-field" placeholder="Иванов">
                 </li>
-                <li class="form__item">
+                <li class="form__item form__item--name">
                   <label class="form__label" for="name2-field">Отчество:</label>
                   <input class="form__input" type="text" name="user-name2" id="name2-field" placeholder="Александрович">
                 </li>
               </ul>
             </div>
             <div class="form__group form__group--contact">
-              <h3 class="form__title">Контактная информация:</h3>
+              <h3 class="form__title form__title--decoration">Контактная информация:</h3>
               <ul class="form__list">
                 <li class="form__item form__item--contact">
                   <label class="form__label" for="phone-field"><span class="form__label-hidden">Контактный</span> телефон*:</label>
@@ -89,8 +89,8 @@
                 </li>
               </ul>
             </div>
-            <div class="form__group--checkbox">
-              <h3 class="form__title">Посещенные достопримечательности:</h3>
+            <div class="form__group form__group--checkbox">
+              <h3 class="form__title form__title--decoration">Посещенные достопримечательности:</h3>
               <ul class="form__list">
                 <li class="form__item form__item--checkbox">
                   <input class="form__input form__input--checkbox visually-hidden" type="checkbox" name="devil-bridge" id="bridge-field" checked>
@@ -111,10 +111,11 @@
               </ul>
             </div>
             <div class="form__group form__group--textarea">
-              <h3 class="form__title">Опишите свои эмоции:</h3>
-              <textarea name="comment" placeholder="Опишите подробно все свои восторги"></textarea>
+              <h3 class="form__title form__title--decoration">Опишите свои эмоции:</h3>
+              <textarea class="form__textarea" name="comment" placeholder="Опишите подробно все свои восторги"></textarea>
             </div>
             <button class="form__submit button" type="submit">Отправить отзыв</button>
+            <p class="form__info">* — обязательные поля</p>
           </form>
         </section>
       </main>
