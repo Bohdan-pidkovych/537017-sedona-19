@@ -21,13 +21,8 @@
 }
 
 .page-header__logo {
-  position: relative;
-  order: 1;
-}
-
-.page-header__logo-image {
   position: absolute;
-  top: 0;
+  top: calc(100% - 56px);
   left: calc(50% - 51px);
   z-index: 1;
 }
@@ -43,6 +38,7 @@
   }
 
   .page-header__logo {
-    position: static;
+    top: 0;
+    left: calc(50% - 51px);
   }
 }
