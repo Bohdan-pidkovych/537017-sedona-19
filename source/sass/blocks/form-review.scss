@@ -1,10 +1,12 @@
 .form-review {
   text-align: center;
+  padding-top: 37px;
 }
 
 .form-review__title {
   margin: 0;
-  margin-top: 37px;
+  margin-bottom: 32px;
+  padding: 0 10px;
   font-family: $font-bold;
   font-size: 18px;
   line-height: 26px;
@@ -12,8 +14,35 @@
 
 .form-review__subtitle {
   margin: 0;
-  margin-top: 32px;
   margin-bottom: 17px;
   padding: 0 22px;
   line-height: 24px;
+  color: #333333;
+}
+
+@media (min-width: $tablet-width) {
+  .form-review {
+    padding: 0 60px;
+    padding-top: 71px;
+  }
+
+  .form-review__title {
+    font-size: 30px;
+  }
+
+  .form-review__subtitle {
+    margin-bottom: 76px;
+    padding: 0 104px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-review {
+    padding: 0 120px;
+    padding-top: 108px;
+  }
+
+  .form-review__subtitle {
+    padding: 0 260px;
+  }
 }

@@ -31,7 +31,61 @@
 .modal--success {
   .modal__button {
     width: calc(100% - 40px);
-    margin-bottom: 20px;
-    box-shadow: 0 0 0 20px #f2f2f2;
+    margin-bottom: 0;
+  }
+}
+
+.modal__button-wrapper {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .modal__title {
+    margin-top: 64px;
+    font-size: 30px;
+  }
+
+  .modal__description {
+    margin-bottom: 35px;
+  }
+
+  .modal__button {
+    width: 272px;
+  }
+
+  .modal--success {
+    width: 640px;
+    margin: 0 auto;
+
+    .modal__description {
+      padding: 0 112px;
+    }
+
+    .modal__button {
+      width: 458px;
+      margin: 0 auto;
+    }
+  }
+
+  .modal__button-wrapper {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  .modal--error {
+    width: 400px;
+    margin: 0 auto;
+
+    .modal__title {
+      padding: 0 75px;
+      line-height: 40px;
+    }
+
+    .modal__button {
+      margin-bottom: 49px;
+    }
   }
 }
