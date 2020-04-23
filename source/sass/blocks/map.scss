@@ -1,10 +1,43 @@
 .map {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
   margin: 0;
   margin-bottom: 10px;
+}
+
+.map__iframe {
+  position: relative;
+  width: 320px;
+  height: 350px;
+  z-index: 2;
+  border: 0;
+}
+
+.map__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 350px;
+  z-index: 1;
 }
 
 @media (min-width: $tablet-width) {
   .map {
     margin-bottom: 0;
+  }
+
+  .map__iframe {
+    width: 768px;
+    height: 350px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__iframe {
+    width: 1200px;
+    height: 350px;
   }
 }

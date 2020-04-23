@@ -4,7 +4,9 @@
 
 .form__title {
   margin: 0;
-  padding: 20px 0;
+  padding: 20px;
+  padding-top: 18px;
+  padding-bottom: 22px;
   font-family: $font-bold;
   font-size: 18px;
   line-height: 26px;
@@ -36,6 +38,10 @@
     font-size: 18px;
     line-height: 26px;
     background-color: #f2f2f2;
+
+    &::placeholder {
+      color: #000000;
+    }
   }
 }
 
@@ -299,66 +305,66 @@
   }
 }
 
-@media (min-width: $desktop-width) {
-  .form__group--contact {
-    .form__list {
-      display: flex;
-      justify-content: space-between;
-    }
+// @media (min-width: $desktop-width) {
+//   .form__group--contact {
+//     .form__list {
+//       display: flex;
+//       justify-content: space-between;
+//     }
 
-    .form__title {
-      padding-bottom: 74px;
-    }
-  }
+//     .form__title {
+//       padding-bottom: 74px;
+//     }
+//   }
 
-  .form__item--contact,
-  .form__item--contact:last-child {
-    margin: 0;
-  }
+//   .form__item--contact,
+//   .form__item--contact:last-child {
+//     margin: 0;
+//   }
 
-  .form__item--contact {
-    flex-direction: row;
+//   .form__item--contact {
+//     flex-direction: row;
 
-    .form__label {
-      padding: 0;
-      align-self: center;
-    }
+//     .form__label {
+//       padding: 0;
+//       align-self: center;
+//     }
 
-    .form__input {
-      width: 316px;
-    }
-  }
+//     .form__input {
+//       width: 316px;
+//     }
+//   }
 
-  .form__label-hidden {
-    display: none;
-  }
+//   .form__label-hidden {
+//     display: none;
+//   }
 
-  .form__group--name {
-    padding-left: 80px;
-  }
+//   .form__group--name {
+//     padding-left: 80px;
+//   }
 
-  .form__group--radio {
-    .form__title {
-      padding-left: 78px;
-    }
-  }
+//   .form__group--radio {
+//     .form__title {
+//       padding-left: 78px;
+//     }
+//   }
 
-  .form__group--checkbox {
-    .form__list {
-      justify-content: space-between;
-    }
+//   .form__group--checkbox {
+//     .form__list {
+//       justify-content: space-between;
+//     }
 
-    .form__title {
-      padding-top: 55px;
-    }
-  }
+//     .form__title {
+//       padding-top: 55px;
+//     }
+//   }
 
-  .form__item--checkbox {
-    width: auto;
-  }
+//   .form__item--checkbox {
+//     width: auto;
+//   }
 
-  .form__title--decoration::after,
-  .form__title--decoration::before {
-    width: 280px;
-  }
-}
+//   .form__title--decoration::after,
+//   .form__title--decoration::before {
+//     width: 280px;
+//   }
+// }

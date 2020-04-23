@@ -1,7 +1,7 @@
 .intro {
   position: relative;
   height: 389px;
-  padding: 90px 20px 85px 20px;
+  padding: 89px 20px 85px 20px;
   text-align: center;
   background-color: #acd5ee;
   background-image: url("../img/bg-back-mobile@1x.jpg");
@@ -14,46 +14,52 @@
     bottom: -1px;
     right: calc(50% - 160px);
     width: 320px;
-    height: 26px;
+    height: 27px;
     background-image: url("../img/bg-intro-triangle-mobile.svg");
-    background-size: 102%;
+    background-size: 100%;
   }
 
   &--inner {
-    height: 158px;
+    height: 157px;
     padding: 52px 46px 67px 46px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .intro {
-    height: 518px;
+    height: 517px;
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-size: cover;
 
     &::after {
       right: calc(50% - 384px);
       width: 768px;
-      height: 57px;
+      height: 58px;
       background-image: url("../img/bg-intro-triangle-tablet.svg");
       background-size: 100%;
     }
 
     &--inner {
-      height: 290px;
+      height: 289px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .intro {
+    height: 518px;
     background-image: url("../img/bg-back-desktop@1x.jpg");
 
     &::after {
+      bottom: 0;
       right: calc(50% - 600px);
       width: 1200px;
       height: 57px;
       background-image: url("../img/bg-intro-triangle-desktop.svg");
+    }
+
+    &--inner {
+      height: 301px;
     }
   }
 }

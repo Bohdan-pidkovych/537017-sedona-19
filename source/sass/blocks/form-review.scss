@@ -5,7 +5,7 @@
 
 .form-review__title {
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 27px;
   padding: 0 10px;
   font-family: $font-bold;
   font-size: 18px;
@@ -23,26 +23,28 @@
 @media (min-width: $tablet-width) {
   .form-review {
     padding: 0 60px;
-    padding-top: 71px;
+    padding-top: 75px;
   }
 
   .form-review__title {
+    margin-bottom: 31px;
     font-size: 30px;
+    line-height: 26px;
   }
 
   .form-review__subtitle {
-    margin-bottom: 76px;
+    margin-bottom: 74px;
     padding: 0 104px;
   }
 }
 
-@media (min-width: $desktop-width) {
-  .form-review {
-    padding: 0 120px;
-    padding-top: 108px;
-  }
+// @media (min-width: $desktop-width) {
+//   .form-review {
+//     padding: 0 120px;
+//     padding-top: 108px;
+//   }
 
-  .form-review__subtitle {
-    padding: 0 260px;
-  }
-}
+//   .form-review__subtitle {
+//     padding: 0 260px;
+//   }
+// }
