@@ -1,6 +1,6 @@
 .appointment {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 26px;
   padding-bottom: 49px;
 }
 
@@ -14,10 +14,14 @@
 
 .appointment__subtitle {
   margin: 0;
-  margin-top: 24px;
+  margin-top: 20px;
   padding: 0 29px;
   line-height: 24px;
   color: #333333;
+
+  br {
+    display: none;
+  }
 }
 
 .appointment__link {
@@ -28,7 +32,7 @@
 
 @media (min-width: $tablet-width) {
   .appointment {
-    padding-top: 57px;
+    padding-top: 56px;
     padding-bottom: 58px;
   }
 
@@ -38,13 +42,18 @@
   }
 
   .appointment__subtitle {
+    margin-top: 32px;
     padding: 0 165px;
+
+    br {
+      display: inline;
+    }
   }
 
   .appointment__link {
     margin-left: 155px;
     margin-right: 155px;
-    margin-top: 42px;
+    margin-top: 41px;
   }
 }
 
@@ -54,7 +63,8 @@
   }
 
   .appointment__subtitle {
-    padding: 0 383px;
+    margin-top: 31px;
+    padding: 0 50px;
   }
 
   .appointment__link {
