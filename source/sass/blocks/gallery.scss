@@ -64,7 +64,7 @@
     border: none;
     background-color: #f2f2f2;
 
-    &:nth-child(3n) {
+    &:nth-child(odd):not(:first-child) {
       background-color: #eaeaea;
     }
 
