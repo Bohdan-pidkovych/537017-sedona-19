@@ -6,20 +6,6 @@
   padding-bottom: 56px;
 }
 
-.page-header__toggle-menu {
-  position: absolute;
-  top: 16px;
-  right: 20px;
-  width: 23px;
-  height: 23px;
-  border: none;
-  background-color: transparent;
-  background-image: url("../img/icon-cross.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-
 .page-header__logo {
   position: absolute;
   top: calc(100% - 56px);
@@ -31,10 +17,6 @@
   .page-header {
     flex-direction: row;
     padding-bottom: 0;
-  }
-
-  .page-header__toggle-menu {
-    display: none;
   }
 
   .page-header__logo {
