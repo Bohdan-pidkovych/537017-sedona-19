@@ -46,7 +46,7 @@
 
 .more-advantages__item--house {
   .more-advantages__title::before {
-    top: -10px;
+    top: -9px;
     left: -47px;
     width: 37px;
     height: 36px;
@@ -58,8 +58,8 @@
 
 .more-advantages__item--gift {
   .more-advantages__title::before {
-    top: -10px;
-    left: -45px;
+    top: -11px;
+    left: -44px;
     width: 32px;
     height: 38px;
     background-image: url("../img/icon-gift.svg");
@@ -71,7 +71,7 @@
 .more-advantages__item--food {
   .more-advantages__title::before {
     top: -5px;
-    left: -52px;
+    left: -51px;
     width: 40px;
     height: 35px;
     background-image: url("../img/icon-burger.svg");
@@ -146,45 +146,46 @@
 
   .more-advantages__description {
     margin-top: 22px;
+    margin-bottom: 29px;
   }
 }
 
-@media (min-width: $desktop-width) {
-  .more-advantages__list {
-    width: 1200px;
-  }
+// @media (min-width: $desktop-width) {
+//   .more-advantages__list {
+//     width: 1200px;
+//   }
 
-  .more-advantages__item {
-    width: 400px;
-  }
+//   .more-advantages__item {
+//     width: 400px;
+//   }
 
-  .more-advantages__item--house {
-    .more-advantages__title::before {
-      left: 162px;
-    }
+//   .more-advantages__item--house {
+//     .more-advantages__title::before {
+//       left: 162px;
+//     }
 
-    .more-advantages__description {
-      padding: 0 50px;
-    }
-  }
+//     .more-advantages__description {
+//       padding: 0 50px;
+//     }
+//   }
 
-  .more-advantages__item--gift {
-    .more-advantages__title::before {
-      left: 167px;
-    }
+//   .more-advantages__item--gift {
+//     .more-advantages__title::before {
+//       left: 167px;
+//     }
 
-    br {
-      display: inline;
-    }
-  }
+//     br {
+//       display: inline;
+//     }
+//   }
 
-  .more-advantages__item--food {
-    .more-advantages__title::before {
-      left: 162px;
-    }
-  }
+//   .more-advantages__item--food {
+//     .more-advantages__title::before {
+//       left: 162px;
+//     }
+//   }
 
-  .more-advantages__description {
-    margin-bottom: 49px;
-  }
-}
+//   .more-advantages__description {
+//     margin-bottom: 49px;
+//   }
+// }

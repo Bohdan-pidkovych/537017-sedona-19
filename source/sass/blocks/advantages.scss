@@ -1,9 +1,10 @@
 .advantages {
-  padding-top: 39px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .advantages__head {
+  margin: 0;
   padding-left: 32px;
   padding-right: 32px;
   color: #000000;
@@ -14,7 +15,7 @@
 
 .advantages__subhead {
   margin-top: 28px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   padding-left: 32px;
   padding-right: 32px;
   color: #333333;
@@ -191,52 +192,52 @@
   }
 }
 
-@media (min-width: $desktop-width) {
-  .advantages {
-    padding-top: 49px;
-  }
+// @media (min-width: $desktop-width) {
+//   .advantages {
+//     padding-top: 49px;
+//   }
 
-  .advantages__head {
-    padding: 0 355px;
-  }
+//   .advantages__head {
+//     padding: 0 355px;
+//   }
 
-  .advantages__subhead {
-    padding: 0 40px;
-  }
+//   .advantages__subhead {
+//     padding: 0 40px;
+//   }
 
-  .advantages__text-block {
-    width: 400px;
-    padding-top: 51px;
-  }
+//   .advantages__text-block {
+//     width: 400px;
+//     padding-top: 51px;
+//   }
 
-  .advantages__title {
-    padding: 0 125px;
-  }
+//   .advantages__title {
+//     padding: 0 125px;
+//   }
 
-  .advantages__description {
-    padding: 0 55px;
-  }
+//   .advantages__description {
+//     padding: 0 55px;
+//   }
 
-  .advantages__item--illustrated:nth-child(2) {
-    .advantages__text-block {
-      padding-top: 52px;
-    }
+//   .advantages__item--illustrated:nth-child(2) {
+//     .advantages__text-block {
+//       padding-top: 52px;
+//     }
 
-    .advantages__description {
-      padding: 0 85px;
-    }
-  }
+//     .advantages__description {
+//       padding: 0 85px;
+//     }
+//   }
 
-  .advantages__image-block {
-    width: 800px;
-  }
+//   .advantages__image-block {
+//     width: 800px;
+//   }
 
-  .advantages__item--grey {
-    width: 400px;
-    padding-bottom: 66px;
+//   .advantages__item--grey {
+//     width: 400px;
+//     padding-bottom: 66px;
 
-    .advantages__description--narrow {
-      padding: 0 63px;
-    }
-  }
-}
+//     .advantages__description--narrow {
+//       padding: 0 63px;
+//     }
+//   }
+// }
