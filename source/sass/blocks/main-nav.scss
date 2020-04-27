@@ -126,12 +126,12 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .main-nav__item {
-//     width: 239px;
+@media (min-width: $desktop-width) {
+  .main-nav__item {
+    width: 239px;
 
-//     &:nth-child(4n+3) {
-//       margin-left: 244px;
-//     }
-//   }
-// }
+    &:nth-child(4n+3) {
+      margin-left: 244px;
+    }
+  }
+}

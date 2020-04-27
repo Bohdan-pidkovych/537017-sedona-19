@@ -150,42 +150,42 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .more-advantages__list {
-//     width: 1200px;
-//   }
+@media (min-width: $desktop-width) {
+  .more-advantages__list {
+    width: 1200px;
+  }
 
-//   .more-advantages__item {
-//     width: 400px;
-//   }
+  .more-advantages__item {
+    width: 400px;
+  }
 
-//   .more-advantages__item--house {
-//     .more-advantages__title::before {
-//       left: 162px;
-//     }
+  .more-advantages__item--house {
+    .more-advantages__title::before {
+      left: 162px;
+    }
 
-//     .more-advantages__description {
-//       padding: 0 50px;
-//     }
-//   }
+    .more-advantages__description {
+      padding: 0 50px;
+    }
+  }
 
-//   .more-advantages__item--gift {
-//     .more-advantages__title::before {
-//       left: 167px;
-//     }
+  .more-advantages__item--gift {
+    .more-advantages__title::before {
+      left: 167px;
+    }
 
-//     br {
-//       display: inline;
-//     }
-//   }
+    br {
+      display: inline;
+    }
+  }
 
-//   .more-advantages__item--food {
-//     .more-advantages__title::before {
-//       left: 162px;
-//     }
-//   }
+  .more-advantages__item--food {
+    .more-advantages__title::before {
+      left: 162px;
+    }
+  }
 
-//   .more-advantages__description {
-//     margin-bottom: 49px;
-//   }
-// }
+  .more-advantages__description {
+    margin-bottom: 49px;
+  }
+}

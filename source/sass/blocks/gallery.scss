@@ -74,23 +74,23 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .gallery {
-//     padding-top: 112px;
-//   }
+@media (min-width: $desktop-width) {
+  .gallery {
+    padding-top: 112px;
+  }
 
-//   .gallery__subtitle {
-//     margin-bottom: 71px;
-//     padding: 0 385px;
-//   }
+  .gallery__subtitle {
+    margin-bottom: 71px;
+    padding: 0 385px;
+  }
 
-//   .gallery__list {
-//     padding: 0;
-//     background-color: transparent;
-//   }
+  .gallery__list {
+    padding: 0;
+    background-color: transparent;
+  }
 
-//   .gallery__item {
-//     position: relative;
-//     min-height: 267px;
-//   }
-// }
+  .gallery__item {
+    position: relative;
+    min-height: 267px;
+  }
+}

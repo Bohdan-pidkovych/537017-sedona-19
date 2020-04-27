@@ -179,33 +179,33 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .video {
-//     padding-top: 72px;
-//     padding-bottom: 84px;
-//     padding-left: 200px;
-//     padding-right: 200px;
-//   }
+@media (min-width: $desktop-width) {
+  .video {
+    padding-top: 72px;
+    padding-bottom: 84px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 
-//   .video__subtitle {
-//     margin-bottom: 71px;
-//     padding: 0 192px;
-//   }
+  .video__subtitle {
+    margin-bottom: 71px;
+    padding: 0 192px;
+  }
 
-//   .video__item {
-//     width: 800px;
-//     height: 500px;
-//   }
+  .video__item {
+    width: 800px;
+    height: 500px;
+  }
 
-//   .video__controls {
-//     padding-right: 42px;
-//   }
+  .video__controls {
+    padding-right: 42px;
+  }
 
-//   .video__progress {
-//     width: 540px;
-//   }
+  .video__progress {
+    width: 540px;
+  }
 
-//   .video__progress-control {
-//     left: 21%;
-//   }
-// }
+  .video__progress-control {
+    left: 21%;
+  }
+}

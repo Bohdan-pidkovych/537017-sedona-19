@@ -57,19 +57,19 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .appointment {
-//     padding-bottom: 66px;
-//   }
+@media (min-width: $desktop-width) {
+  .appointment {
+    padding-bottom: 66px;
+  }
 
-//   .appointment__subtitle {
-//     margin-top: 31px;
-//     padding: 0 50px;
-//   }
+  .appointment__subtitle {
+    margin-top: 31px;
+    padding: 0 50px;
+  }
 
-//   .appointment__link {
-//     margin-left: 371px;
-//     margin-right: 371px;
-//     margin-top: 47px;
-//   }
-// }
+  .appointment__link {
+    margin-left: 371px;
+    margin-right: 371px;
+    margin-top: 47px;
+  }
+}

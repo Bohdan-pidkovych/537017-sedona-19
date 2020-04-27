@@ -38,13 +38,14 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .form-review {
-//     padding: 0 120px;
-//     padding-top: 108px;
-//   }
+@media (min-width: $desktop-width) {
+  .form-review {
+    padding: 0 120px;
+    padding-top: 111px;
+  }
 
-//   .form-review__subtitle {
-//     padding: 0 260px;
-//   }
-// }
+  .form-review__subtitle {
+    margin-bottom: 58px;
+    padding: 0 260px;
+  }
+}

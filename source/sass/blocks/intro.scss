@@ -45,21 +45,21 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
-//   .intro {
-//     height: 518px;
-//     background-image: url("../img/bg-back-desktop@1x.jpg");
+@media (min-width: $desktop-width) {
+  .intro {
+    height: 518px;
+    background-image: url("../img/bg-back-desktop@1x.jpg");
 
-//     &::after {
-//       bottom: 0;
-//       right: calc(50% - 600px);
-//       width: 1200px;
-//       height: 57px;
-//       background-image: url("../img/bg-intro-triangle-desktop.svg");
-//     }
+    &::after {
+      bottom: 0;
+      right: calc(50% - 600px);
+      width: 1200px;
+      height: 57px;
+      background-image: url("../img/bg-intro-triangle-desktop.svg");
+    }
 
-//     &--inner {
-//       height: 301px;
-//     }
-//   }
-// }
+    &--inner {
+      height: 301px;
+    }
+  }
+}
