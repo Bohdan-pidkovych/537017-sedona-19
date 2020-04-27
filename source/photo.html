@@ -221,22 +221,6 @@
       </footer>
     </div>
     <script src="js/toggle-menu.js"></script>
-    <script>
-      let likeWrapper = document.querySelectorAll('.photo__likes-wrapper');
-      console.log(likeWrapper);
-      // for (let wrap of likeWrapper)
-      for (let i = 0; i < likeWrapper.length; i++) {
-        let likeButton = document.querySelector('.photo__likes-button');
-        let likeNumber = document.querySelector('.photo__likes-number');
-        likeButton.onclick = function () {
-          if (likeButton.classList.contains('photo__likes-button--added')) {
-            likeNumber.textContent--;
-          } else {
-            likeNumber.textContent++;
-          }
-          likeButton.classList.toggle('photo__likes-button--added');
-        };
-      }
-    </script>
+    <script src="js/likes.js"></script>
   </body>
 </html>
