@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 38px;
+  margin-top: 39px;
   padding-bottom: 23px;
   line-height: 26px;
 }
@@ -13,11 +13,10 @@
 }
 
 .copyright__link {
-  padding: 0;
   display: block;
   width: 27px;
   height: 34px;
-  // Not working
+  padding: 0;
 }
 
 .copyright__logo {
@@ -42,6 +41,7 @@
 
 @media (min-width: $tablet-width) {
   .copyright {
+    margin-top: 0;
     padding: 0;
     padding-left: 7px;
     padding-right: 3px;

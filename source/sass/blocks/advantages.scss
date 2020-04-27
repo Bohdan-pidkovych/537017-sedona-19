@@ -1,9 +1,10 @@
 .advantages {
-  padding-top: 39px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .advantages__head {
+  margin: 0;
   padding-left: 32px;
   padding-right: 32px;
   color: #000000;
@@ -14,7 +15,7 @@
 
 .advantages__subhead {
   margin-top: 28px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   padding-left: 32px;
   padding-right: 32px;
   color: #333333;
@@ -87,7 +88,7 @@
   padding-bottom: 27px;
   background-color: #eeeeee;
 
-  &::after {
+  &:not(:nth-last-child(2))::after {
     content: "";
     position: absolute;
     bottom: 0;

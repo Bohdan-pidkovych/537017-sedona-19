@@ -34,16 +34,14 @@
 .photo__likes-button {
   width: 23px;
   height: 21px;
+  padding: 0;
   border: none;
   background-color: transparent;
-  background-image: url("../img/icon-like.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   opacity: 0.3;
   cursor: pointer;
 }
 
-.added {
+.photo__likes-button--added {
   opacity: 1;
 }
 
@@ -94,10 +92,6 @@
 }
 
 @media (min-width: $desktop-width) {
-  .photo {
-    background-color: transparent;
-  }
-
   .photo__image {
     width: 400px;
     height: 267px;
@@ -122,5 +116,15 @@
 
   .photo__likes-button {
     opacity: 1;
+
+    path {
+      fill: #ffffff;
+    }
+  }
+
+  .photo__likes-button--added {
+    path {
+      fill: #ff6347;
+    }
   }
 }

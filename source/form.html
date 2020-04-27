@@ -9,13 +9,13 @@
   <body>
     <div class="container">
       <header class="page-header">
-        <button class="page-header__toggle-menu" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
         <a class="page-header__logo" href="index.html" aria-label="Перейти на главную страницу">
           <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип Седоны">
         </a>
-        <nav class="page-header__main-nav main-nav">
+        <nav class="page-header__main-nav main-nav main-nav--nojs">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
           <ul class="main-nav__list">
             <li class="main-nav__item">
               <a class="main-nav__link" href="index.html">Главная</a>
@@ -40,7 +40,7 @@
         </section>
         <section class="form-review">
           <h2 class="form-review__title">Оставьте свой отзыв</h2>
-          <p class="form-review__subtitle">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+          <p class="form-review__subtitle">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
           <form class="form-review__form form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="form__group form__group--name">
               <h3 class="form__title">Представьтесь:</h3>
@@ -54,7 +54,7 @@
                   <input class="form__input" type="text" name="user-surname" id="surname-field" placeholder="Иванов">
                 </li>
                 <li class="form__item form__item--name">
-                  <label class="form__label" for="name2-field">Отчество:</label>
+                  <label class="form__label form__label--name2" for="name2-field">Отчество:</label>
                   <input class="form__input" type="text" name="user-name2" id="name2-field" placeholder="Александрович">
                 </li>
               </ul>
@@ -115,7 +115,7 @@
               <textarea class="form__textarea" name="comment" placeholder="Опишите подробно все свои восторги"></textarea>
             </div>
             <button class="form__submit button" type="submit">Отправить отзыв</button>
-            <p class="form__info">* — обязательные поля</p>
+            <p class="form__info">* – обязательные поля</p>
           </form>
         </section>
       </main>
@@ -163,5 +163,6 @@
         </div>
       </section>
     </div>
+    <script src="js/toggle-menu.js"></script>
   </body>
 </html>
