@@ -10,6 +10,7 @@
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
+  cursor: pointer;
 
   &:hover,
   &:focus {
@@ -23,6 +24,6 @@
 
   &:disabled {
     background-color: #e5e5e5;
-    // How it work?
+    cursor: default;
   }
 }

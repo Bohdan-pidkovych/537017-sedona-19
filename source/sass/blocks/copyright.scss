@@ -42,16 +42,15 @@
 @media (min-width: $tablet-width) {
   .copyright {
     margin-top: 0;
+    margin-left: auto;
     padding: 0;
-    padding-left: 7px;
-    padding-right: 3px;
   }
 }
 
-@media (min-width: $desktop-width) {
-  .copyright {
-    padding: 0;
-    padding-left: 45px;
-    padding-right: 5px;
-  }
-}
+// @media (min-width: $desktop-width) {
+//   .copyright {
+//     padding: 0;
+//     padding-left: 45px;
+//     padding-right: 5px;
+//   }
+// }

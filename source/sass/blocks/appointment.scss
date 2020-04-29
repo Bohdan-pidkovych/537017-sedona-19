@@ -28,6 +28,11 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 35px;
+
+  &:not([href]) {
+    background-color: #e5e5e5;
+    cursor: default;
+  }
 }
 
 @media (min-width: $tablet-width) {

@@ -14,26 +14,25 @@
 @media (min-width: $tablet-width) {
   .page-footer {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 36px 0;
+    padding: 36px 60px;
   }
 
   .page-footer__hashtag {
     margin: 0;
+    margin-right: 112px;
     padding: 0;
-    padding-left: 2px;
     padding-top: 10px;
     padding-bottom: 12px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .page-footer {
+    padding: 36px 120px;
+  }
+
   .page-footer__hashtag {
-    margin: 0;
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 12px;
-    padding-right: 40px;
+    margin-right: 268px;
   }
 }
