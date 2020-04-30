@@ -1,7 +1,7 @@
 .intro {
   position: relative;
-  height: 389px;
-  padding: 89px 20px 85px 20px;
+  min-height: 389px;
+  padding: 89px 20px 80px 20px;
   text-align: center;
   background-color: #acd5ee;
   background-image: url("../img/bg-back-mobile@1x.jpg");
@@ -25,14 +25,15 @@
   }
 
   &--inner {
-    height: 157px;
-    padding: 52px 46px 67px 46px;
+    min-height: 157px;
+    padding: 52px 46px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .intro {
-    height: 517px;
+    min-height: 517px;
+    padding: 77px 40px;
     background-image: url("../img/bg-back-tablet@1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -48,14 +49,24 @@
     }
 
     &--inner {
-      height: 289px;
+      min-height: 289px;
+      padding: 94px 40px;
+    }
+  }
+
+  .intro__image-text {
+    width: 460px;
+    height: 350px;
+
+    &--inner {
+      height: 80px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .intro {
-    height: 518px;
+    min-height: 518px;
     background-image: url("../img/bg-back-desktop@1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -71,7 +82,8 @@
     }
 
     &--inner {
-      height: 301px;
+      min-height: 301px;
+      padding: 102px 40px;
     }
   }
 }
