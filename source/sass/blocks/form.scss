@@ -142,6 +142,17 @@
   box-shadow: 0 0 0 17px #f2f2f2;
 }
 
+.form__input--radio:hover + .form__label::before,
+.form__input--radio:focus + .form__label::before {
+  background-color: #e5e5e5;
+  box-shadow: 0 0 0 17px #e5e5e5;
+}
+
+.form__input--radio:active + .form__label::before {
+  background-color: #d5d5d5;
+  box-shadow: 0 0 0 17px #d5d5d5;
+}
+
 .form__input--radio:checked + .form__label::before {
   background-color: #333333;
 }
@@ -177,6 +188,15 @@
   height: 55px;
   border-radius: 5px;
   background-color: #f2f2f2;
+}
+
+.form__input--checkbox:hover + .form__label::before,
+.form__input--checkbox:focus + .form__label::before {
+  background-color: #e5e5e5;
+}
+
+.form__input--checkbox:active + .form__label::before {
+  background-color: #d5d5d5;
 }
 
 .form__input--checkbox:checked + .form__label::before {
