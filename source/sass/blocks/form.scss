@@ -400,16 +400,26 @@
   }
 
   .form__title--decoration {
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
-    &::after,
-    &::before {
+    &::before,
+    &::after {
       content: "";
+      position: absolute;
       width: 125px;
       height: 1px;
       background-color: #dbdbdb;
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
     }
   }
 
@@ -527,6 +537,11 @@
   .form__submit {
     margin-top: 53px;
     margin-bottom: 66px;
+  }
+
+  .form__title--decoration {
+    padding-left: 290px;
+    padding-right: 290px;
   }
 
   .form__title--decoration::after,
