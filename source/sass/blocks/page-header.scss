@@ -23,3 +23,14 @@
     top: 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    left: calc(50% - 94px);
+  }
+
+  .page-header__logo-image {
+    width: 187px;
+    height: 96px;
+  }
+}

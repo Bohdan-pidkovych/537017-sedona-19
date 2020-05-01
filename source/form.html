@@ -10,7 +10,11 @@
     <div class="container">
       <header class="page-header">
         <a class="page-header__logo" href="index.html" aria-label="Перейти на главную страницу">
-          <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип Седоны">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+            <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="84" alt="Логотип Седоны">
+          </picture>
         </a>
         <nav class="page-header__main-nav main-nav main-nav--nojs">
           <button class="main-nav__toggle" type="button">
@@ -20,7 +24,7 @@
             <li class="main-nav__item">
               <a class="main-nav__link" href="index.html">Главная</a>
             </li>
-            <li class="main-nav__item main-nav__item--active">
+            <li class="main-nav__item">
               <a class="main-nav__link" href="photo.html">Фото и видео</a>
             </li>
             <li class="main-nav__item main-nav__item--active">
