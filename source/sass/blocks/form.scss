@@ -157,6 +157,10 @@
   background-color: #333333;
 }
 
+.form__input--radio:checked:active + .form__label::before {
+  background-color: rgba(51, 51, 51, 0.3);
+}
+
 .form__item--checkbox {
   margin-bottom: 54px;
 
@@ -199,10 +203,20 @@
   background-color: #d5d5d5;
 }
 
-.form__input--checkbox:checked + .form__label::before {
+.form__input--checkbox:checked + .form__label::after {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: 0;
+  width: 55px;
+  height: 55px;
   background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.form__input--checkbox:checked:active + .form__label::after {
+  opacity: 0.3;
 }
 
 .form__group--textarea {
