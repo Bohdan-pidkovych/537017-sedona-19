@@ -218,6 +218,12 @@
     height: 256px;
   }
 
+  /* stylelint-disable */
+  .advantages__image--poly {
+    font-family: "object-fit: cover";
+  }
+  /* stylelint-enable */
+
   .advantages__title {
     padding: 0 122px;
   }
