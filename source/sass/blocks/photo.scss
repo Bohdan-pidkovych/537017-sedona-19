@@ -36,6 +36,7 @@
   height: 21px;
   padding: 0;
   border: none;
+  color: #000000;
   background-color: transparent;
   opacity: 0.3;
   cursor: pointer;
@@ -116,15 +117,10 @@
 
   .photo__likes-button {
     opacity: 1;
-
-    path {
-      fill: #ffffff;
-    }
+    color: #ffffff;
   }
 
   .photo__likes-button--added {
-    path {
-      fill: #ff6347;
-    }
+    color: #ff6347;
   }
 }

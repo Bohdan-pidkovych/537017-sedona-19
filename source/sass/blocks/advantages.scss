@@ -156,7 +156,7 @@
 
   .advantages__title {
     font-size: 21px;
-    padding: 0 53px;
+    padding: 0 50px;
   }
 
   .advantages__description {
@@ -218,8 +218,14 @@
     height: 256px;
   }
 
+  /* stylelint-disable */
+  .advantages__image--poly {
+    font-family: "object-fit: cover";
+  }
+  /* stylelint-enable */
+
   .advantages__title {
-    padding: 0 125px;
+    padding: 0 122px;
   }
 
   .advantages__description {
