@@ -62,11 +62,11 @@
               <ul class="form__list">
                 <li class="form__item form__item--name">
                   <label class="form__label" for="name-field">ИМЯ*:</label>
-                  <input class="form__input" type="text" name="user-name" id="name-field" placeholder="Петр">
+                  <input class="form__input form__input--required" type="text" name="user-name" id="name-field" placeholder="Петр">
                 </li>
                 <li class="form__item form__item--name">
                   <label class="form__label" for="surname-field">ФАМИЛИЯ*:</label>
-                  <input class="form__input" type="text" name="user-surname" id="surname-field" placeholder="Иванов">
+                  <input class="form__input form__input--required" type="text" name="user-surname" id="surname-field" placeholder="Иванов">
                 </li>
                 <li class="form__item form__item--name">
                   <label class="form__label form__label--name2" for="name2-field">Отчество:</label>
@@ -79,11 +79,11 @@
               <ul class="form__list">
                 <li class="form__item form__item--contact">
                   <label class="form__label" for="phone-field"><span class="form__label-hidden">Контактный</span> телефон*:</label>
-                  <input class="form__input" type="tel" name="user-phone" id="phone-field" placeholder="Введите телефон">
+                  <input class="form__input form__input--required" type="tel" name="user-phone" id="phone-field" pattern="\+[0-9]{12}" title="В формате: +************, где *-любая цифра" placeholder="Введите телефон">
                 </li>
                 <li class="form__item form__item--contact">
                   <label class="form__label" for="email-field">Электронная почта*:</label>
-                  <input class="form__input" type="email" name="user-email" id="email-field" placeholder="Введите e-mail">
+                  <input class="form__input form__input--required" type="email" name="user-email" id="email-field" placeholder="Введите e-mail">
                 </li>
               </ul>
             </div>
@@ -180,6 +180,7 @@
       </section>
     </div>
     <script src="js/toggle-menu.js"></script>
+    <script src="js/popup.js"></script>
     <script src="js/svg4everybody.min.js"></script>
     <script>
       svg4everybody();
