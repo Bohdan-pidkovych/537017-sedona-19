@@ -392,12 +392,15 @@
     .form__list {
       display: flex;
       flex-wrap: wrap;
+      padding-left: 65px;
+      padding-right: 65px;
     }
   }
 
   .form__item--checkbox {
     width: 50%;
     margin-bottom: 63px;
+    padding-left: 31px;
 
     &:first-child {
       margin-top: 0;
@@ -405,14 +408,6 @@
 
     &:last-child {
       margin-bottom: 63px;
-    }
-
-    &:nth-child(odd) {
-      padding-left: 96px;
-    }
-
-    &:nth-child(even) {
-      padding-left: 31px;
     }
   }
 
@@ -427,15 +422,17 @@
   }
 
   .form__title--decoration {
-    position: relative;
+    // position: relative;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     &::before,
     &::after {
       content: "";
-      position: absolute;
+      display: block;
+      // position: absolute;
       width: 125px;
       height: 1px;
       background-color: #dbdbdb;
@@ -538,6 +535,7 @@
   .form__group--checkbox {
     .form__list {
       justify-content: space-between;
+      padding: 0;
     }
 
     .form__title {
@@ -567,8 +565,8 @@
   }
 
   .form__title--decoration {
-    padding-left: 290px;
-    padding-right: 290px;
+    // padding-left: 290px;
+    // padding-right: 290px;
   }
 
   .form__title--decoration::after,
