@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Седона - Фото и видео</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -80,7 +80,7 @@
                   <div class="photo__likes-wrapper">
                     <button class="photo__likes-button" type="button" aria-label="Поставить лайк">
                       <svg width="22px" height="20px" fill="currentColor">
-                        <use xlink:href="img/sprite.svg#icon-like"></use>
+                        <use xlink:href="#icon-like"></use>
                       </svg>
                     </button>
                     <span class="photo__likes-number">1350</span>
@@ -108,7 +108,7 @@
                   <div class="photo__likes-wrapper">
                     <button class="photo__likes-button" type="button" aria-label="Поставить лайк">
                       <svg width="22px" height="20px" fill="currentColor">
-                        <use xlink:href="img/sprite.svg#icon-like"></use>
+                        <use xlink:href="#icon-like"></use>
                       </svg>
                     </button>
                     <span class="photo__likes-number">143</span>
@@ -136,7 +136,7 @@
                   <div class="photo__likes-wrapper">
                     <button class="photo__likes-button" type="button" aria-label="Поставить лайк">
                       <svg width="22px" height="20px" fill="currentColor">
-                        <use xlink:href="img/sprite.svg#icon-like"></use>
+                        <use xlink:href="#icon-like"></use>
                       </svg>
                     </button>
                     <span class="photo__likes-number">96</span>
@@ -164,7 +164,7 @@
                   <div class="photo__likes-wrapper">
                     <button class="photo__likes-button" type="button" aria-label="Поставить лайк">
                       <svg width="22px" height="20px" fill="currentColor">
-                        <use xlink:href="img/sprite.svg#icon-like"></use>
+                        <use xlink:href="#icon-like"></use>
                       </svg>
                     </button>
                     <span class="photo__likes-number">254</span>
@@ -189,7 +189,7 @@
           <div class="video__controls">
             <button class="video__button video__button--replay" type="button">
               <svg class="video__icon video__icon--replay" width="16px" height="20px" fill="currentColor">
-                <use xlink:href="img/sprite.svg#icon-video-replay"></use>
+                <use xlink:href="#icon-video-replay"></use>
               </svg>
             </button>
             <div class="video__progress">
@@ -201,12 +201,12 @@
             </div>
             <button class="video__button video__button--subtitles" type="button">
               <svg class="video__icon video__icon--subtitles" width="32px" height="20px" fill="currentColor">
-                <use xlink:href="img/sprite.svg#icon-video-subtitles"></use>
+                <use xlink:href="#icon-video-subtitles"></use>
               </svg>
             </button>
             <button class="video__button video__button--fullscreen" type="button">
               <svg class="video__icon video__icon--fullscreen" width="20px" height="20px" fill="currentColor">
-                <use xlink:href="img/sprite.svg#icon-video-fullscreen"></use>
+                <use xlink:href="#icon-video-fullscreen"></use>
               </svg>
             </button>
           </div>
@@ -238,7 +238,7 @@
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span class="visually-hidden">HTML Academy</span>
             <svg class="copyright__logo" width="27" height="34" fill="currentColor">
-              <use xlink:href="img/sprite.svg#logo-htmlacademy"></use>
+              <use xlink:href="#logo-htmlacademy"></use>
             </svg>
           </a>
         </div>
@@ -246,9 +246,5 @@
     </div>
     <script src="js/toggle-menu.js"></script>
     <script src="js/likes.js"></script>
-    <script src="js/svg4everybody.min.js"></script>
-    <script>
-      svg4everybody();
-    </script>
   </body>
 </html>

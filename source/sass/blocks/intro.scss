@@ -4,13 +4,13 @@
   padding: 89px 20px 80px 20px;
   text-align: center;
   background-color: #acd5ee;
-  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/ignored-webp/bg-back-mobile@1x.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../img/bg-back-mobile@2x.jpg");
+    background-image: url("../img/ignored-webp/bg-back-mobile@2x.jpg");
   }
 
   &::after {
@@ -34,10 +34,10 @@
   .intro {
     min-height: 517px;
     padding: 77px 40px;
-    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-image: url("../img/ignored-webp/bg-back-tablet@1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/bg-back-tablet@2x.jpg");
+      background-image: url("../img/ignored-webp/bg-back-tablet@2x.jpg");
     }
 
     &::after {
@@ -68,10 +68,10 @@
   .intro {
     min-height: 518px;
     padding: 78px 40px;
-    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-image: url("../img/ignored-webp/bg-back-desktop@1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/bg-back-desktop@2x.jpg");
+      background-image: url("../img/ignored-webp/bg-back-desktop@2x.jpg");
     }
 
     &::after {
