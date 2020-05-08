@@ -18,14 +18,6 @@
   }
 }
 
-.map__iframe {
-  position: relative;
-  width: 320px;
-  height: 350px;
-  z-index: 3;
-  border: 0;
-}
-
 .map__image {
   position: absolute;
   top: 0;
@@ -36,19 +28,17 @@
 }
 
 .map__api {
+  position: relative;
+  z-index: 3;
   width: 100%;
   height: 350px;
+  border: 0;
   text-transform: initial;
 }
 
 @media (min-width: $tablet-width) {
   .map {
     margin-bottom: 0;
-  }
-
-  .map__iframe {
-    width: 768px;
-    height: 350px;
   }
 
   .map__image {
@@ -58,11 +48,6 @@
 }
 
 @media (min-width: $desktop-width) {
-  .map__iframe {
-    width: 1200px;
-    height: 350px;
-  }
-
   .map__image {
     width: 1200px;
     height: 350px;

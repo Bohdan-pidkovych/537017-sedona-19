@@ -136,7 +136,6 @@
         </section>
         <section class="map">
           <h2 class="visually-hidden">Карта расположения Седоны</h2>
-          <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1202087.266098887!2d-112.22043919726411!3d34.88823854878842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0ZbQt9C-0L3QsCA4NjMzNiwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1587386174130!5m2!1suk!2sua" title="Карта расположения Седоны" width="320" height="350" style="border:0;" allowfullscreen=""></iframe>
           <picture>
             <source type="image/webp" media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.webp 1x, img/bg-map-desktop@2x.webp 2x">
             <source type="image/webp" media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.webp 1x, img/bg-map-tablet@2x.webp 2x">
@@ -145,8 +144,8 @@
             <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.jpg 1x, img/bg-map-tablet@2x.jpg 2x">
             <img class="map__image" src="img/bg-map-mobile@1x.jpg" srcset="img/bg-map-mobile@2x.jpg 2x" width="320" height="350" alt="Карта расположения Седоны">
           </picture>
+          <div class="map__api" id="map"></div>
         </section>
-        <div class="map__api" id="map"></div>
       </main>
       <footer class="page-footer">
         <p class="page-footer__hashtag">#visitsedona</p>
@@ -183,7 +182,7 @@
     <script src="js/toggle-menu.js"></script>
     <script>
       function initMap() {
-        var pos = {lat: 34.855928, lng: -111.789939};
+        var pos = {lat: 34.815928, lng: -111.739939};
         var opt = {
           center: pos,
           zoom: 7,
