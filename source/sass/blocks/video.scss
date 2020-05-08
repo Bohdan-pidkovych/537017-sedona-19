@@ -17,7 +17,7 @@
 .video__subtitle {
   margin: 0;
   margin-bottom: 36px;
-  padding: 0 42px;
+  padding: 0 41px;
   line-height: 24px;
   color: #333333;
 }
@@ -35,7 +35,7 @@
   min-height: 110px;
   margin: 0 auto;
   margin-top: -45px;
-  background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom, transparent 45px, #f2f2f2 45px);
 }
 
 .video__progress {
@@ -44,6 +44,7 @@
   height: 45px;
   padding: 0 22px;
   background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .video__progress-track {
@@ -135,6 +136,7 @@
     padding-left: 35px;
     padding-right: 41px;
     background-color: rgba(0, 0, 0, 0.6);
+    background-image: none;
   }
 
   .video__progress {
