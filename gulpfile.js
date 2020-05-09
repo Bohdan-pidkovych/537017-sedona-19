@@ -30,7 +30,9 @@ gulp.task("webp", function () {
   return gulp.src([
     "source/img/**/*.{png,jpg}",
     "!source/img/ignored-webp",
-    "!source/img/ignored-webp/*.{png,jpg}"
+    "!source/img/ignored-webp/*.{png,jpg}",
+    "!source/img/favicon",
+    "!source/img/favicon/*.{png,jpg}"
   ])
     .pipe(webp({quality: 90}))
     .pipe(gulp.dest("build/img"));
